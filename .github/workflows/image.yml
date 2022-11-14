@@ -20,6 +20,7 @@ jobs:
     - name: Build and push
       uses: docker/build-push-action@v3
       with:
-        context: naiveproxy
+        context: ./naiveproxy
+        file: ./naiveproxy/Dockerfile
         push: true
         tags: omengye/naiveproxy:v107.0.5304.87-3
