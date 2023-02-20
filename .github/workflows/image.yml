@@ -22,4 +22,4 @@ jobs:
       with:
         context: "{{defaultContext}}:naiveproxy"
         push: true
-        tags: omengye/naiveproxy:v108.0.5359.94-1
+        tags: omengye/naiveproxy:v109.0.5414.74-1
